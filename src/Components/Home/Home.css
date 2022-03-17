@@ -1,0 +1,89 @@
+.back {
+    position: relative;
+    background-image: url(../../GadgefyDone/background/YELLOW\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:unset;
+    /* YELLOW 1 */
+    width: 100%;
+    height: 383px;
+    opacity: 0.85;
+}
+
+.hero {
+    margin-left: 60%;
+    margin-top: 20px;
+    /* Vector */
+    position: relative;
+    width: 80%;
+    height: 92%;;
+    z-index: -20;
+}
+
+.title {
+    width: 100px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 65px;
+    color: aliceblue;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Gadgefy {
+    width: 600px;
+    border-radius: 15px;
+}
+
+.RecentNews {
+    display: flex;
+    border-left: 5px solid orange;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.WhyUs {
+    display: flex;
+    border-left: 5px solid orange;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.HowWorks {
+    display: flex;
+    border-left: 5px solid orange;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.What {
+    display: flex;
+    border-left: 5px solid orange;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Testimonial {
+    margin-top: 55px;
+}
+
+.Why {
+    margin-top: 55px;
+    background-color: rgb(255, 230, 183);
+}
+
+.gefy {
+    color: orange;
+}

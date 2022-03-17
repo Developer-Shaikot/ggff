@@ -1,0 +1,25 @@
+.lgin{
+    display: flex;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+   margin-top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.lgtitle{
+    width: 100px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: rgb(7, 8, 8);
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+}
+.lg-illus{
+    width: 100%;
+
+    z-index: -20;
+}
+.lgFrom{
+    padding: 10px;
+}

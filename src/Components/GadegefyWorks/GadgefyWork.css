@@ -1,0 +1,13 @@
+.number{
+    height: 28px;
+    width: 28px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+.gadyWork{
+    font-family: 'Montserrat', sans-serif;
+}
+.pra{
+    font-family: 'Montserrat', sans-serif;
+}

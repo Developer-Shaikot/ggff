@@ -1,0 +1,53 @@
+.CamDta{
+    border: 0;
+	margin:10px;
+    border-radius: 15px;
+
+}
+body{
+	background: #fff;
+}
+
+.total-price{
+	padding-bottom: 15px;
+}
+.cart-item{
+	width: 93%;
+	margin: 4%;
+	
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+
+.cart-item h5{
+    padding: 0 45px;
+}
+
+.btn-default{
+	background-color: #fff;
+}
+.cart-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 35%;
+    border-radius: 20px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+	white-space: nowrap;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
+}

@@ -1,0 +1,40 @@
+.cbg{
+  
+  opacity: 0.85;
+}
+.db{
+    color: black;
+}
+  #contact-form{
+      align-items: center;
+      justify-content: center;
+      margin-left: 80%;
+      margin-right:20%;
+      padding: 30px;
+  }
+  .cbg{
+    background-color: orange;
+  }
+
+  .cnt{
+    width: 80%;
+    height: 80%;
+    border: 0;
+    margin-left: 10%;
+    padding: 10px;
+
+}
+.p{
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+}
+.cntSide{
+  
+  color: aliceblue;
+  white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+.error{
+  color: red;
+}

@@ -1,0 +1,19 @@
+.responsive {
+    width: 205px;
+    top: 3305px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Tsell{
+    margin-left: 30%;
+    margin-right: 20%;
+}
+.responsive:hover{
+    width: 205px;
+    top: 3305px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid orange;
+}

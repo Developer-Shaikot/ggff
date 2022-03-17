@@ -1,0 +1,17 @@
+
+
+.contained {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .icn{
+    width: 70px;
+  }
+  .image {
+    flex-basis: 30%
+  }
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+  }

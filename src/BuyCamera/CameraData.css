@@ -1,0 +1,31 @@
+.link-button{
+    background-color: rgb(24, 12, 24);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color:black;
+    font-weight: 200;
+}
+.click:hover{
+    text-decoration:none;
+    color: forestgreen;
+}
+
+.text-white{
+    text-align: center;
+    
+}
+.cardimg{
+    width: 70%;
+}
+.buyCam{
+    width: 80%;
+    height: 80%;
+    border: 0;
+    margin-left: 10%;
+    padding: 10px;
+
+}
+.buyCam:hover{
+    color: rgb(218, 179, 8);
+    border: 1px solid orange;
+}

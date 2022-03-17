@@ -1,0 +1,57 @@
+.gtValue {
+    color: rgb(241, 149, 95);
+}
+
+.gtPrice {
+    color: rgb(238, 10, 21);
+}
+
+.btnnn {
+    width: 72px;
+    height: 42px;
+    margin: 8PX;
+    margin-top: 5px;
+    margin-bottom: 10%;
+    background: #f6b604;
+    color: white;
+    left: 36.23%;
+    right: 62.16%;
+    border-radius: 4px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btnnn:hover {
+    margin: 8PX;
+    bottom: 77.18%;
+    bottom: 77.18%;
+    margin-bottom: 10%;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+    background: white;
+    color: #000000;
+    border: none;
+    left: 36.23%;
+    right: 62.16%;
+    bottom: 77.69%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #000000;
+}

@@ -1,0 +1,82 @@
+.sellBack {
+    position: relative;
+    background: rgb(255, 196, 33);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    /* YELLOW 1 */
+    width: 100%;
+    height: 355px;
+    opacity: 0.85;
+}
+
+
+
+
+
+.sellTitle {
+    width: 90px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-bottom: 15%;
+    color: aliceblue;
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.textbox {
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 10px;
+    justify-content: space-between;
+    white-space: nowrap;
+    color: aliceblue;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alignleft {
+    float: left;
+    width: 155.33333%;
+    text-align: left;
+    margin: 2%;
+}
+
+.aligncenter {
+    float: left;
+    width: 155.33333%;
+    text-align: center;
+    margin: 2%;
+}
+
+.alignright {
+    float: left;
+    width: 155.33333%;
+    text-align: right;
+    margin: 2%;
+}
+
+​ .rightIcn {
+    color: aliceblue;
+}
+
+.illustrator {
+    margin-left: 190%;
+    margin-top: 30px;
+    /* Vector */
+    position: relative;
+    width: 120%;
+    height: 85%;
+    z-index: -20;
+}
+
+.topSelling {
+    display: flex;
+    border-left: 5px solid orange;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
