@@ -7,8 +7,10 @@ import { NavDropdown } from "react-bootstrap";
 import useFirebase from "../../Login/Firebase/useFirebase";
 import { UserContext } from '../../App';
 import DashboardCustomizeOutlinedIcon from "@mui/icons-material/DashboardCustomizeOutlined";
+import HomeIcon from '@material-ui/icons/Home';
 import PersonRoundedIcon from "@mui/icons-material/PersonRounded";
 import CallIcon from "@material-ui/icons/Call";
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -81,7 +83,7 @@ function Navbar() {
       <nav id="navbar_top" className='navbar'>
         <Link to="/">
           <img
-            style={{ width: "120px", marginBottom: "15px" }}
+            style={{ width: "130px", marginBottom: "15px", marginRight: "50px", marginLeft: "50px" }}
             src={logo}
             alt=""
           />
@@ -95,7 +97,25 @@ function Navbar() {
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-         
+          {/* <li className='nav-item'>
+          <Link className=" text-black mt-2" to="/">
+                  Home
+                </Link>
+          </li> */}
+          <li className='nav-item'>
+
+            {isAdmin ? (
+              <Link className="Ome text-black" onClick={closeMobileMenu} to="/dashboard">
+                <DashboardCustomizeOutlinedIcon className="icon" />
+                Dashboard
+              </Link>
+            ) : (
+              <Link className="Ome text-black mr-2" to="/">
+                <HomeIcon className="icon" />
+                Home
+              </Link>
+            )}
+          </li>
 
           <li
             className='nav-item'
@@ -103,38 +123,52 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
 
+
+
             <NavDropdown
-              className="HD text-black mt-2"
+              className="H mt-4"
               title={<span className="text-dark">Sell</span>}
-              menuVariant="white"
-            >
-              <Link className="dd text-black" to="/sellcamera">
-                Sell Camera
-              </Link>
-              <br />
+            ><NavDropdown.Item>
+                <Link className="dd text-black" to="/sellcamera">
+                  Sell Camera
+                </Link>
+              </NavDropdown.Item>
             </NavDropdown>
 
+
+
           </li>
-          <li className='nav-item'>
+          <li className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}>
 
             <NavDropdown
-              className="HD text-black mt-2"
+              className="ddown"
               title={<span className="text-dark">Buy</span>}
               menuVariant="white"
-            >
-              <Link className="dd text-black" to="/buyCamera">
-                Buy Camera
-              </Link>
-              <br />
+            ><NavDropdown.Item>
+                <Link className="dd text-black" to="/buyCamera">
+                  Buy Camera
+                </Link>
+              </NavDropdown.Item>
             </NavDropdown>
           </li>
 
+          <li className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}>
+            <Link className="HD text-black mt-3" to="/contact">
+              <CallIcon className="icon" />
+              Contact
+            </Link>
+
+          </li>
 
           <li className='nav-item'>
 
             {loggedInUser.email ? (
               <NavDropdown
-                className="HD mt-2"
+                className="ddown"
                 title={
                   <span className="text-dark">
                     <PersonRoundedIcon className="icon" />
@@ -148,39 +182,27 @@ function Navbar() {
                 {/* <Link className="HD text-black mt-2" to="/myOrder">
                   My Orders</Link>
                   <br /> */}
+
+                <NavDropdown.Divider />
                 <Button
-                  className="dd text-black mt-3"
+                  className="dd text-black m-2 ml-5"
                   variant="outline-warning"
                   onClick={handleLogOut}
                 >
                   Sign out
                 </Button>
+                <NavDropdown.Divider />
+
               </NavDropdown>
             ) : (
-              <Link className="HD text-black" to="/login">
+              <Link className="HD text-black mt-3" to="/login">
                 <PersonRoundedIcon className="icon" />
                 Login
               </Link>
             )}
           </li>
-          <li className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}>
-            <Link className="HD text-black mt-2" to="/contact">
-              <CallIcon className="icon" />
-              Contact
-            </Link>
 
-          </li>
-          <li className='nav-item'>
 
-            {isAdmin && (
-              <Link className="HD text-black mt-2" onClick={closeMobileMenu} to="/dashboard">
-                <DashboardCustomizeOutlinedIcon className="icon" />
-                Dashboard
-              </Link>
-            )}
-          </li>
         </ul>
 
       </nav>
