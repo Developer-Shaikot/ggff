@@ -183,7 +183,7 @@
   margin-bottom: 10px;
   padding: 25px;
   background-color: #FFFACD;
-  margin-left: 20px;
+  margin-left: 15px;
   transition: 350ms;
 }
 
@@ -191,7 +191,7 @@
   text-decoration: none;
   margin-top: 10;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 15px;
   padding: 25px;
   white-space: nowrap;
   transition: 250ms;
@@ -227,6 +227,7 @@
 
 .Ome {
   padding: 15px;
+  margin-left: 20px;
   text-decoration: none;
   background-color: #FFFACD;
   white-space: nowrap;

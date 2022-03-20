@@ -1,0 +1,12 @@
+.whatsapp_float{
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    left: 85%;
+}
+
+.dot:hover {
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }

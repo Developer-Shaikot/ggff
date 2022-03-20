@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import logo from "../../Gadgefy/newlg.png";
+import logo from "../../Gadgefy/WhatsApp_Image_2022-03-18_at_9.47.42_PM-removebg-preview.png";
 import { Button } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -83,7 +83,7 @@ function Navbar() {
       <nav id="navbar_top" className='navbar'>
         <Link to="/">
           <img
-            style={{ width: "130px", marginBottom: "15px", marginRight: "50px", marginLeft: "50px" }}
+            style={{ width: "100px", marginBottom: "15px", borderRadius: "2%", border:"1px solid orange" }}
             src={logo}
             alt=""
           />

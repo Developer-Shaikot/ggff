@@ -87,3 +87,8 @@
 .gefy {
     color: orange;
 }
+.whasapp_float{
+    position:fixed;
+    bottom: 40px;
+    right: 20px;
+}
