@@ -236,7 +236,7 @@
 
 .Ome {
   padding: 23px;
-  margin-left: 30%;
+  margin-left: 33%;
   text-decoration: none;
   background-color: #FFFACD;
   white-space: nowrap;
@@ -246,7 +246,7 @@
 .Ome:hover {
   padding: 23px;
   text-decoration: none;
-  margin-left: 30%;
+  margin-left: 33%;
   white-space: nowrap;
   transition: 250ms;
 }
