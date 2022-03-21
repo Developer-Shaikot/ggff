@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import logo from "../../Gadgefy/WhatsApp_Image_2022-03-18_at_9.47.42_PM-removebg-preview.png";
+import logo from "../../Gadgefy/WhatsApp Image 2022-03-21 at 4.02.43 PM.jpeg";
 import { Button } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -83,7 +83,7 @@ function Navbar() {
       <nav id="navbar_top" className='navbar'>
         <Link to="/">
           <img
-            style={{ width: "100px", marginBottom: "15px", borderRadius: "2%", border:"1px solid orange" }}
+            style={{ width: "130px",padding:"15px", marginBottom: "15px",marginLeft:"15px", borderRadius: "2%", border:"1px solid orange" }}
             src={logo}
             alt=""
           />
@@ -105,13 +105,12 @@ function Navbar() {
           <li className='nav-item'>
 
             {isAdmin ? (
-              <Link className="Ome text-black" onClick={closeMobileMenu} to="/dashboard">
+              <Link className="Dash text-black mt-3" onClick={closeMobileMenu} to="/dashboard">
                 <DashboardCustomizeOutlinedIcon className="icon" />
                 Dashboard
               </Link>
             ) : (
               <Link className="Ome text-black mr-2" to="/">
-                <HomeIcon className="icon" />
                 Home
               </Link>
             )}
@@ -143,7 +142,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}>
 
             <NavDropdown
-              className="ddown"
+              className="H mt-4"
               title={<span className="text-dark">Buy</span>}
               menuVariant="white"
             ><NavDropdown.Item>
@@ -201,7 +200,6 @@ function Navbar() {
               </Link>
             )}
           </li>
-
 
         </ul>
 

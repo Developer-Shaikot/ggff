@@ -28,6 +28,7 @@ import Contact from "./Contact/Contact";
 import ShowValue from "./SellComponent/SellCamera/ShowValue";
 import TermsAndCon from "./SellComponent/SellCamera/TermsAndCon";
 import Phone from "./SellComponent/SellCamera/Phone";
+import Wapp from "./Components/Home/Wapp";
 
 export const UserContext = createContext();
 
@@ -60,9 +61,11 @@ function App() {
             </Route>
             <Route exact path="/buy">
               <BuyingSection />
+              <Wapp/>
             </Route>
             <Route exact path="/sellcamera">
               <Sell></Sell>
+              <Wapp/>
             </Route>
             {/* <Route path="/phone">
               <Phone />
@@ -77,9 +80,11 @@ function App() {
             </Route>
             <Route path="/buyCamera">
               <BuyCamera />
+              <Wapp/>
             </Route>
             <Route path="/buy/:id">
               <CameraDetails />
+              <Wapp/>
             </Route>
             <Route path="/manageService">
               <Navbar />
@@ -88,6 +93,7 @@ function App() {
             <Route path="/valueShow">
               <Navbar />
               <ShowValue />
+              <Wapp/>
             </Route>
             {/* <Route exact path="/otp">
               <Otp/>
@@ -101,21 +107,27 @@ function App() {
             <Route path="/myOrder">
               <Navbar />
               <MyOrder />
+              <Wapp/>
             </Route>
             <Route path="/modelcanon/:id">
               <ModelDetails />
+              <Wapp/>
             </Route>
             <Route path="/modelnikon/:id">
               <NikonModel1 />
+              <Wapp/>
             </Route>
             <Route path="/modelsony/:id">
               <SonyModel />
+              <Wapp/>
             </Route>
             <Route path="/contact">
               <Contact />
+              <Wapp/>
             </Route>
             <Route path="/terms&condition">
               <TermsAndCon />
+              <Wapp/>
             </Route>
             {/* <Route path="/Eos1200D">
             <Eos1200D />
@@ -170,14 +182,17 @@ function App() {
             </Route> */}
             <Route path="/showCamera">
               <ShowCameras />
+              <Wapp/>
             </Route>
             <Route path="/canon">
               <Navbar />
               <Canon></Canon>
+              <Wapp/>
             </Route>
             <Route path="/Nikon">
               <Navbar />
               <Nikon></Nikon>
+              <Wapp/>
             </Route>
             {/* <Route path="/NikonD3200">
               <NikonD3200 />
@@ -200,6 +215,7 @@ function App() {
             <Route path="/Sony">
               <Navbar />
               <Sony></Sony>
+              <Wapp/>
             </Route>
           </Switch>
         </Router>

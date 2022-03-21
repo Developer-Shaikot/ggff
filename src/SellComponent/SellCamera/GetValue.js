@@ -187,7 +187,8 @@ const GetValue = ({ modalIsOpen, mName, price, closeModal, Show, _id }) => {
           Close
         </Button>{" "}
         <div>
-          <p className="text-danger">{error}</p>
+
+          {/* <p className="text-danger">{error}</p>
           <form onSubmit={getOtp} style={{ display: !flag ? "block" : "none" }}>
             <label className="container mt-5 text-danger">Please Verify your Mobile Number Add Country Code Before Number. </label>
             <PhoneInput className="form-control mt-1 m-2 pt-2"
@@ -209,9 +210,9 @@ const GetValue = ({ modalIsOpen, mName, price, closeModal, Show, _id }) => {
                 Send OTP
               </button>
             </div>
-          </form>
+          </form> */}
 
-          {isSuccess ? (
+     
             <div className="container">
               <h6 className="mt-5">
                 <FontAwesomeIcon className="icon" icon={faArrowDown} />
@@ -342,15 +343,15 @@ const GetValue = ({ modalIsOpen, mName, price, closeModal, Show, _id }) => {
                       onChange={setNewMname} readOnly = {true} 
                     />
                     <br />
-                    <label htmlFor="">
-                      <span className="error">Your Phone Number</span>
+                    <label>
+                      <span className="error">Please Provide Your Mobile Number</span>
                     </label>
                     <br />
                     <input
-                      defaultValue={number}
+                     
                       {...register("number", { required: true })}
                       className="m-2"
-                      onChange={handlePhoneChange} readOnly = {true}    
+                      onChange={handlePhoneChange}    
                     />
                     {errors.number && (
                       <span className="error">Phone Number is required</span>
@@ -397,8 +398,8 @@ const GetValue = ({ modalIsOpen, mName, price, closeModal, Show, _id }) => {
                 </div>
               </div>
             </div>
-          ) : (
-            <form className="form-control container mt-5"
+        
+            {/* <form className="form-control container mt-5"
               onSubmit={verifyOtp}
               style={{ display: flag ? "block" : "none" }}
             > <label className="container mt-2 text-danger">Please provide OTP </label>
@@ -416,9 +417,9 @@ const GetValue = ({ modalIsOpen, mName, price, closeModal, Show, _id }) => {
                   Verify OTP
                 </button>
               </div>
-            </form>
+            </form> */}
 
-          )}
+          
         </div>
 
       </Modal>
