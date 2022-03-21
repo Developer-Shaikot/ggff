@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="cbg g-4 rounded-3 ml-5 mt-5 mb-5">
             <h3 className="cntSide mt-4">Contact Information</h3>
             <br/>
-            <p className="p">Fill up the form and our team will get back to you within 24 hours.</p>
+            <p className="p">Fill up the form and our team will get back you soon. </p>
             <Footer></Footer>
 
         </div>

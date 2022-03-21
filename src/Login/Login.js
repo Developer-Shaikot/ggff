@@ -220,12 +220,6 @@ function Login() {
         <div className="row row-cols-1 row-cols-md-2 g-4 rounded-3 mt-2">
           <div className="container mt-5">
             <div className="lgFrom">
-              <img
-                style={{ width: "120px", display: "flex" }}
-                src={logo}
-                alt=""
-              />
-              <h3 className="lgin">Login</h3>
 
               <div className="pra mt-4">
                 <p style={{ color: "red" }}>{user.error}</p>

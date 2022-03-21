@@ -42,7 +42,7 @@ const Sell = () => {
                 </div>
             </div>
             <div className="GadgefyWork mt-5">
-                <h6 className="HowWorks"><b>How Gad<span className="gefy">gefy</span> Works ?</b> </h6  >
+            <h6 className="HowWorks"><b>How <span className="gefy">My</span> Rate Works ?</b> </h6  >
                 <GadgefyWork />
 
             </div>
@@ -57,7 +57,7 @@ const Sell = () => {
                 <h6 className="topSelling"><b>Top Selling Models</b> </h6>
                     <SellingModels/>
             </div> */}
-             <footer class="pra text-center mt-5 pt-3 mb-3 ml-5 justify-content-end text-black mb-1">@Gadgefy {(new Date()).getFullYear()} Copyright All Rights Reserved</footer>
+             <footer class="pra text-center mt-5 pt-3 mb-3 ml-5 justify-content-end text-black mb-1">@My Rate {(new Date()).getFullYear()} Copyright All Rights Reserved</footer>
              <br />
         </div>
     );

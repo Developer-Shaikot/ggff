@@ -80,10 +80,15 @@ function Navbar() {
 
   return (
     <div className="nv">
+      <nav className="bgc">
+          <div className="tmn">
+            <h8 className="text-white">Call us: 6362234448</h8>
+          </div>
+        </nav>
       <nav id="navbar_top" className='navbar'>
         <Link to="/">
           <img
-            style={{ width: "130px",padding:"15px", marginBottom: "15px",marginLeft:"15px", borderRadius: "2%", border:"1px solid orange" }}
+            style={{ width: "130px", marginLeft: "20px", marginBottom: "25px" }}
             src={logo}
             alt=""
           />
@@ -105,12 +110,12 @@ function Navbar() {
           <li className='nav-item'>
 
             {isAdmin ? (
-              <Link className="Dash text-black mt-3" onClick={closeMobileMenu} to="/dashboard">
+              <Link className="Dash text-black" onClick={closeMobileMenu} to="/dashboard">
                 <DashboardCustomizeOutlinedIcon className="icon" />
                 Dashboard
               </Link>
             ) : (
-              <Link className="Ome text-black mr-2" to="/">
+              <Link className="Dash text-black mr-2" to="/">
                 Home
               </Link>
             )}
@@ -182,7 +187,7 @@ function Navbar() {
                   My Orders</Link>
                   <br /> */}
 
-                <NavDropdown.Divider />
+               
                 <Button
                   className="dd text-black m-2 ml-5"
                   variant="outline-warning"
@@ -190,7 +195,7 @@ function Navbar() {
                 >
                   Sign out
                 </Button>
-                <NavDropdown.Divider />
+                
 
               </NavDropdown>
             ) : (
@@ -200,7 +205,7 @@ function Navbar() {
               </Link>
             )}
           </li>
-
+          
         </ul>
 
       </nav>

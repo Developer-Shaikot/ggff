@@ -59,7 +59,7 @@ const CamData = ({cam,cart,addCart,removeFromCart}) => {
                 <div className="Why mt-5">
                     <WhyUs />
                 </div>
-                <footer class="pra text-center mt-5 pt-3 mb-3 ml-5 justify-content-end text-black mb-1">@Gadgefy {(new Date()).getFullYear()} Copyright All Rights Reserved</footer>
+                <footer class="pra text-center mt-5 pt-3 mb-3 ml-5 justify-content-end text-black mb-1">@My Rate {(new Date()).getFullYear()} Copyright All Rights Reserved</footer>
              <br />
         </div>
     );

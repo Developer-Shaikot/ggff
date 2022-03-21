@@ -299,7 +299,7 @@ const GetValue = ({ modalIsOpen, mName, price, closeModal, Show, _id }) => {
                       />
                       <label>No</label>
                     </div>
-                    <label className="db">
+                    <label className="db text-primary">
                       Do you have any additional lens?
                     </label>
                     <div className="field">
@@ -343,7 +343,7 @@ const GetValue = ({ modalIsOpen, mName, price, closeModal, Show, _id }) => {
                       onChange={setNewMname} readOnly = {true} 
                     />
                     <br />
-                    <label>
+                    <label htmlFor="">
                       <span className="error">Please Provide Your Mobile Number</span>
                     </label>
                     <br />
